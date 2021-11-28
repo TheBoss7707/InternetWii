@@ -1,0 +1,11 @@
+#capa4
+{
+   position: absolute;
+   font-size: 30px;
+   font: oblique bold 120% cursive;   width: 420px;
+   height: 120px;
+   background-color: rgb(227, 255, 224);;
+   margin: 1px;
+   border: 1px solid #bbb;
+   display: none;
+}

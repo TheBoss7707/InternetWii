@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sorteo</title>
+	<script src="js/jquery-2.1.4.js"></script>
+		<script src="js/codigo.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/sorteo.css">
+</head>
+<body>
+	<center>
+	<div id="capa1">
+		<p id="titulo" ></p>
+		<form action="" method="post">
+			<textarea id="txtmensaje" cols="90" rows="20">Los Términos y Condiciones Especiales y éstos Términos y Condiciones Generales constituyen conjuntamente los Términos y Condiciones de la Promoción (“Términos y Condiciones de la Promoción”). En caso de conflicto entre estos Términos y Condiciones Generales y los Términos y Condiciones Especiales prevalecerán los Términos y Condiciones Especiales.La Promoción está abierta para que participen en ella todas las Personas Incluidas según se especifica en los Términos y Condiciones Especiales (en adelante los “Participantes”). No podrán participar las Personas Excluidas (según se define en los Términos y Condiciones Especiales), los empleados de StubHub, sus familias, sus agentes o cualquier tercero directamente relacionado con la gestión de la Promoción. El Responsable se reserva todos los derechos para solicitar la información o documentación necesaria para verificar que los Participantes cumplan con todas las condiciones necesarias para ser considerado una Persona Incluida.Solo se permite una participación por persona. Sólo las personas físicas son aptas para participar. Las personas residentes en el Norte de Irlanda, Hong Kong, así como cualquier otra Persona Excluida, no podrán participar en la Promoción. Sólo se aceptarán las participaciones enviadas a través del método oficial designado para el registro en la Promoción. El Responsable no aceptará participaciones que (a) sean generadas automáticamente por ordenador o cualquier otro sistema; (b) sean completadas por terceros o de forma masiva; o (c) sean ilegibles, incompletas, fraudulentas, alteradas, reconstruidas, falsificadas o manipuladas.Los Participantes se comprometen a proporcionar información veraz y precisa. El Responsable no tendrá responsabilidad alguna en relación con participaciones perdidas, extraviadas, dañadas, borradas, incompletas, ilegibles o de otro modo imposibles de leer o retrasadas en la entrega, independientemente de la causa, incluyendo, por ejemplo, como resultado de cualquier fallo postal, fallo del equipo técnico, mal funcionamiento de equipos, sistemas, satélite, red, servidor, hardware informático o fallo del software de cualquier tipo. El Responsable no acepta responsabilidad alguna por las participaciones que no se hayan completado con éxito debido a un fallo técnica, un fallo del hardware o software del ordenador, un fallo del servidor, de la red o del satélite de cualquier tipo o debido a errores de entrada de datos u omisiones en una participación hecha por los Participantes. Los Participantes aceptan que, en el caso de un problema técnico en el sistema del Responsable, las participaciones pueden no estar disponibles temporalmente y, si éstas se han visto afectadas, es posible que los Participantes deban volver a ingresar su información para que su participación sea válida.</textarea><br>
+<input type="checkbox" id="chkaceptar" onclick="mostrarBoton();">Aceptar las Condiciones
+
+		</form>
+	</div>
+	<div id="capa2" style="display: none;">
+		<input type="button" value="ingresar" onclick="OcultarMostrar()" >
+	</div>
+	<div>
+		<h1 id="mensaje"></h1>
+	</div>
+	<div id="capa3" style="display: none"  >
+		<p id="titulo1" style="font-family: times, serif"></p>
+		<img src="images/sorteo.jpg" style="height: 700px;">
+	</div>
+
+	<div id="capa4" style="display: none" ></div>
+
+</center>
+</body>
+</html>

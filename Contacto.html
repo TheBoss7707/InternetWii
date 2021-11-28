@@ -1,0 +1,96 @@
+
+<html>
+  <head>
+   
+    <title>.:. WIN .:.</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos-contacto.css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/codigo.js"></script>
+
+  </head>
+
+
+  <body>
+    
+    <header>
+
+      <div id="logo">
+        <img src="images/logo.png" alt="">
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="Inicio.html" >Inicio</a></li>
+          <li><a href="Planes.html" >Planes</a></li>
+          <li><a href="Nosotros.html" >Nosotros</a></li>
+          <li><a href="Contacto.html" >Contacto</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div id="contenedor">
+      <section id="banner" >
+        <img id="cambio" src="imagen1.jpg" alt="slide">
+      </section>
+        
+        <section>
+          
+            <form>
+                <p>Nombres: <input type="text" autofocus placeholder="Ingrese su Nombre" required> <span class="error" id="errorNom">Solo se puede ingresar letras</span> </p>
+                <p>Apellidos: <input type="text" placeholder="Ingrese su Apellido" required> <span class="error" id="errorApel">Solo se puede ingresar letras</span> </p>
+                <p>Correo ELectrónico: <input type="text" placeholder="Ingrese su Correo" required> <span class="error" id="errorCor">Ingreso de correo electronico incorrecto</span> </p>
+                <p>Teléfono Celular: <input type="text" required> <span class="error" id="errorTel">Ingreso de telefono celular incorrecto</span> </p>
+                <p>DNI: <input type="text"> <span class="error" id="errorDni">Ingreso  de DNI incorrecto</span> </p>
+                <input type="button" value="Enviar" onclick="validarform(document.getElementById('errorNom').value, document.getElementById('errorApel').value, document.getElementById('errorCor').value, document.getElementById('errorTel'), document.getElementById('errorDni').value)">
+            </form>
+       
+      
+            
+        </section>
+
+        <div style="position: absolute;top:90%;right: 200px;">
+            <img style="height:300px" src="images/imagen6.jpg">
+        </div>
+        <div id="mapa">
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+    <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+        var setting = {"height":600,"width":900,"zoom":17,"queryString":"Torre Barlovento, Av. República de Panamá, San Isidro, Perú","place_id":"ChIJQ45zP3DIBZER5vHkuxC-95g","satellite":false,"centerCoord":[-12.09781435340379,-77.02053630000002],"cid":"0x98f7be10bbe4f1e6","lang":"es","cityUrl":"/peru/lima","cityAnchorText":"Mapa de Lima, Provincia de Lima, Perú","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"323362"};
+        var d = document;
+        var s = d.createElement('script');
+        s.src = 'https://1map.com/js/script-for-user.js?embed_id=323362';
+        s.async = true;
+        s.onload = function (e) {
+          window.OneMap.initMap(setting)
+        };
+        var to = d.getElementsByTagName('script')[0];
+        to.parentNode.insertBefore(s, to);
+      })();</script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+          </div>
+    
+            
+
+      <br>
+      <br>
+
+      <footer>
+       <div class="datos">
+          <h2>WIN</h2>
+          <p>(+51)017073008 - (+51)017073000</p>
+          <p>contacto@win.pe  </p>
+          <p>Horario de atención: 09:00 - 18:00</p>
+          <p>Av. Republica de Panama Nro. 3418 -    3420 Torre Barlovento - San Isidro</p>
+          <p>Lima - Perú</p>
+        </div>
+        <div class="sociales">
+          <a href="https://www.facebook.com"><img class="icon" src="iconos/facebook-icon.png"></a>
+          <a href="https://twitter.com"><img class="icon" src="iconos/twitter-icon.png"></a>
+          <a href="https://www.instagram.com"><img class="icon" src="iconos/instagram-icon.png"></a>
+        </div>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

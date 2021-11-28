@@ -1,0 +1,163 @@
+ *{
+   font-family: monospace;
+ }
+
+ body{
+   background: rgb(255,165,0);
+   
+ }
+
+  #contenedor{
+   background: white;
+   border-radius: 50px;
+   border: 10px solid grey;
+   padding: 50px;
+   margin: 150px 200px 40px 180px;
+   width: 900px;
+
+ }
+
+#banner {
+    margin-top: 0px;
+  }
+  
+  #banner img {
+    width: 900px;
+    height: 300px;
+  }
+
+  .escritos, h2{
+    font-size: 30px;
+
+  }
+
+  .escritos, footer{
+    width: 90%;
+  }
+
+  .escritos img{
+    width: 100%;
+
+  }
+
+  .escritos p{
+    font-size: 20px;
+    text-align: justify;
+    
+   }
+
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+  }
+  
+  header {
+    padding: 0;
+    background: rgb(122, 71, 170);
+  }
+
+  #logo{
+    top: 30px;
+    left: 210px;
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    background: white;
+    border-radius: 40px;
+  }
+
+  header img{
+    position: relative;
+    left: 100px;
+    width: 50%;
+    padding:0%;
+    margin: 0%;
+    height: 100px
+  }
+
+  nav {
+    width: 50.2%;
+    position: absolute;
+    right: 0;
+    top: 12%;
+    background: rgb(255,165,0);
+  }
+
+  nav li{
+    display: inline-block;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 20px 30px;
+    font-size: 1.3em;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    background: white;
+    transition: 0.3s;
+    border-radius: 50px;
+    font-weight: bold;
+  }
+  
+  .datos h2 {
+    padding: 0 5px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+  }
+
+
+  footer {
+    text-align: center;
+    font-size: 1.1em;
+    width: 100%;
+    margin: 100px 10px 10px;
+  }
+  
+  .datos p {
+    font-size: 0.88em;
+    color: lightslategrey;
+  }
+
+  .sociales img{
+    width: 50px;
+    height: 50px;
+  }
+
+ 
+  #mapa{
+    width: 70%;
+    padding-top: 30px;
+  }
+
+  .error{
+    display: none;
+    color: red;
+  }
+
+  .parrafo{
+    font-size: 50px;
+    color: blue;
+    margin: 30px 10px;
+    text-align: center;
+
+  }
+
+  .subparrafo{
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  article ul li{
+    font-size: 20px;
+  }
